@@ -8,8 +8,9 @@ function love.load()
     Loader = require("src/loader")
 
     States = Loader.includeNamespace("src/states", "empty", "basic")
-    Core = Loader.includeNamespace("src/core", "renderer", "camera", "scene", "model")
     Entities = Loader.includeNamespace("src/entities", "building", "human", "vehicle", "bullet", "road")
+    Core = Loader.includeNamespace("src/core", "renderer", "assets", "camera", "scene", "model")
+    Levels = Loader.includeNamespace("src/levels", "dev")
 
     SCREEN_WIDTH, SCREEN_HEIGHT = love.graphics.getDimensions()
     CANVAS_WIDTH, CANVAS_HEIGHT = 320, 240
