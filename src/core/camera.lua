@@ -1,7 +1,8 @@
-local PixelCamera = Class{__includes = Camera}
+local PixelCamera = Class{}
 
 function PixelCamera:init()
     self.camera = Camera(0, 0)
+    -- self.camera.smoother = Camera.smooth.linear(50)
 end
 
 function PixelCamera:position()
@@ -15,6 +16,10 @@ function PixelCamera:worldCoords(x, y, resolution)
     dx, dy = dx / resolution, dy / resolution
     px, py = px + dx, py + dy
     return px, py
+end
+
+function PixelCamera:lockPosition(...)
+    return self.camera:lockPosition(...)
 end
 
 function PixelCamera:lookAt(x, y)
