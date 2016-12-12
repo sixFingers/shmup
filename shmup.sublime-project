@@ -1,0 +1,16 @@
+{
+    "folders":
+    [
+        {
+            "path": "/Users/sixFingers/Repositories/shmup"
+        }
+    ],
+    "build_systems":
+    [
+        {
+            "name": "Love2D",
+            "shell_cmd": "love .",
+            "working_dir": "/Users/sixFingers/Repositories/shmup",
+        }
+    ]
+}

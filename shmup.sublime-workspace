@@ -1,0 +1,1342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hal",
+				"half_tex_height\tDefault"
+			],
+			[
+				"up",
+				"u_pixel\tDefault"
+			],
+			[
+				"rando",
+				"randomseed"
+			],
+			[
+				"tri",
+				"triangles\tDefault"
+			],
+			[
+				"vire",
+				"viewPort\tDefault"
+			],
+			[
+				"world",
+				"worldCoords\tDefault"
+			],
+			[
+				"recta",
+				"love.graphics.rectangle"
+			],
+			[
+				"SC",
+				"SCREEN_WIDTH\tDefault"
+			],
+			[
+				"canvas",
+				"canvasOffsetX\tDefault"
+			],
+			[
+				"SCRE",
+				"SCREEN_HEIGHT\tDefault"
+			],
+			[
+				"rota",
+				"rotationSpeed\tDefault"
+			],
+			[
+				"setLine",
+				"love.graphics.setLineStyle"
+			],
+			[
+				"array_e",
+				"array_keys"
+			],
+			[
+				"model",
+				"modelAttrName"
+			],
+			[
+				"ex",
+				"excerpt-length"
+			],
+			[
+				"show",
+				"show-categories"
+			],
+			[
+				"set",
+				"setting_key"
+			],
+			[
+				"secto",
+				"section_settings"
+			],
+			[
+				"camera",
+				"camera.position\tDefault"
+			],
+			[
+				"SCR",
+				"SCREEN_HEIGHT\tDefault"
+			],
+			[
+				"SCREEN",
+				"SCREEN_WIDTH\tDefault"
+			],
+			[
+				"mouse",
+				"mousepressed\tDefault"
+			],
+			[
+				"terra",
+				"terrain_depth\tDefault"
+			],
+			[
+				"vert",
+				"vertices\tDefault"
+			],
+			[
+				"shade",
+				"shade_attenuation"
+			],
+			[
+				"Vert",
+				"VertexNormal"
+			],
+			[
+				"VEr",
+				"VertexNormal"
+			],
+			[
+				"canva",
+				"canvas_width\tDefault"
+			],
+			[
+				"cav",
+				"canvas_height\tDefault"
+			],
+			[
+				"layer",
+				"layers\tDefault"
+			],
+			[
+				"haf",
+				"halfWidth\tDefault"
+			],
+			[
+				"sk",
+				"skewY\tDefault"
+			],
+			[
+				"love",
+				"love.graphics.getDimensions\tDefault"
+			],
+			[
+				"scre",
+				"screenHeight\tDefault"
+			],
+			[
+				"dot",
+				"dotValue"
+			],
+			[
+				"setLi",
+				"love.graphics.setLineStyle"
+			],
+			[
+				"section",
+				"section_data"
+			],
+			[
+				"plu",
+				"plugin_data"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"pale",
+				"playerDir"
+			],
+			[
+				"get",
+				"getTile"
+			],
+			[
+				"pla",
+				"playerDir"
+			],
+			[
+				"getTi",
+				"getTile"
+			],
+			[
+				"player",
+				"playerStep"
+			],
+			[
+				"play",
+				"playerIntendedDir"
+			],
+			[
+				"SHAD",
+				"SHADER_DIR"
+			],
+			[
+				"texture",
+				"texture_path"
+			],
+			[
+				"shadr",
+				"shader_log"
+			],
+			[
+				"shader",
+				"shader_log_length"
+			],
+			[
+				"getTil",
+				"getTileAt"
+			],
+			[
+				"grid",
+				"gridWidth"
+			],
+			[
+				"center",
+				"centerTile"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"plae",
+				"playerDir"
+			],
+			[
+				"came",
+				"cameraZoom"
+			],
+			[
+				"scr",
+				"screenHeight"
+			],
+			[
+				"scree",
+				"screenWidth"
+			],
+			[
+				"grd",
+				"gridWidth"
+			],
+			[
+				"pick",
+				"pickResult"
+			],
+			[
+				"half",
+				"halfWidth"
+			],
+			[
+				"plaer",
+				"playerTile"
+			],
+			[
+				"path",
+				"pathfinder"
+			],
+			[
+				"dev",
+				"devScene"
+			],
+			[
+				"neig",
+				"neighbor\tDefault"
+			],
+			[
+				"lowe",
+				"lowestFScore\tDefault"
+			],
+			[
+				"nei",
+				"neighbors\tDefault"
+			],
+			[
+				"neighb",
+				"neighbors\tDefault"
+			],
+			[
+				"corenr",
+				"cornerOffset\tDefault"
+			],
+			[
+				"nit",
+				"unit\tDefault"
+			],
+			[
+				"cls",
+				"close_eval\tDefault"
+			],
+			[
+				"load",
+				"loadstring\t(string [, chunkname])"
+			],
+			[
+				"segmn",
+				"segment_width\tDefault"
+			],
+			[
+				"ha",
+				"half_depth\tDefault"
+			],
+			[
+				"half_",
+				"half_width\tDefault"
+			],
+			[
+				"def",
+				"definition\tDefault"
+			],
+			[
+				"ve",
+				"vec3\tDefault"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"defaul",
+				"default_options"
+			],
+			[
+				"sign_re",
+				"sign_request_with_token"
+			],
+			[
+				"body",
+				"body_create"
+			],
+			[
+				"encode",
+				"encode64"
+			],
+			[
+				"header",
+				"headers_value"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"target",
+				"target_feed"
+			],
+			[
+				"Acti",
+				"Activity"
+			],
+			[
+				"f",
+				"full_url"
+			],
+			[
+				"do",
+				"doc\tdoc"
+			],
+			[
+				"http",
+				"httpoison"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"high",
+				"highlights"
+			],
+			[
+				"valid",
+				"valid_working_dir"
+			],
+			[
+				"vers",
+				"verse_template"
+			],
+			[
+				"stra",
+				"strand1"
+			],
+			[
+				"uniq",
+				"uniques"
+			],
+			[
+				"externa",
+				"externalHull\tDefault"
+			],
+			[
+				"MAIN",
+				"MAIN_CAMERA:detach\tDefault"
+			],
+			[
+				"left",
+				"leftMost\tDefault"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"current",
+				"currentStartPoint"
+			],
+			[
+				"gri",
+				"gridSize\tDefault"
+			],
+			[
+				"MAINC",
+				"MAIN_CAMERA:mousePosition\tDefault"
+			],
+			[
+				"ligt",
+				"lightPoly\tDefault"
+			],
+			[
+				"po",
+				"love.graphics.point"
+			],
+			[
+				"fnc",
+				"function\tfunction"
+			],
+			[
+				"inter",
+				"intersection\tDefault"
+			],
+			[
+				"curren",
+				"currentCell\tDefault"
+			],
+			[
+				"poly",
+				"love.graphics.polygon"
+			],
+			[
+				"getPosit",
+				"love.mouse.getPosition"
+			],
+			[
+				"vol",
+				"volumeTris\tDefault"
+			],
+			[
+				"volu",
+				"volume\tDefault"
+			],
+			[
+				"pint",
+				"print\t(...)"
+			],
+			[
+				"ver",
+				"vertices\tDefault"
+			],
+			[
+				"interna",
+				"internalHull"
+			],
+			[
+				"sha",
+				"shadowCount\tDefault"
+			],
+			[
+				"shadow",
+				"shadowOffset\tDefault"
+			],
+			[
+				"wea",
+				"weaponName\tDefault"
+			],
+			[
+				"weapn",
+				"weapon\tDefault"
+			],
+			[
+				"curre",
+				"currentTool\tDefault"
+			],
+			[
+				"curret",
+				"currentRect\tDefault"
+			],
+			[
+				"curr",
+				"currentTool\tDefault"
+			],
+			[
+				"getPo",
+				"love.mouse.getPosition"
+			],
+			[
+				"maxJu",
+				"maxJumpControlTime"
+			],
+			[
+				"rotate",
+				"rotateViewField\tDefault"
+			],
+			[
+				"ranom",
+				"randomseed"
+			],
+			[
+				"update",
+				"updateViewField\tDefault"
+			],
+			[
+				"sort",
+				"sortClockWise\tDefault"
+			],
+			[
+				"view",
+				"viewRadius\tDefault"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 795,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/entities/road.lua",
+			"settings":
+			{
+				"buffer_size": 629,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/model.lua",
+			"settings":
+			{
+				"buffer_size": 2729,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/entities/human.lua",
+			"settings":
+			{
+				"buffer_size": 4034,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/states/basic.lua",
+			"settings":
+			{
+				"buffer_size": 4178,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Glu",
+				"Glue - Launch"
+			],
+			[
+				"syneli",
+				"Set Syntax: Elixir"
+			],
+			[
+				"fm",
+				"phpfmt: format now"
+			],
+			[
+				"php",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"phpfm",
+				"phpfmt: toggle PSR2"
+			],
+			[
+				"C9",
+				"Set Syntax: C99"
+			],
+			[
+				"PAck",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Lorem",
+				"Add some Lorem Gibson"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"Comme",
+				"Snippet: Comment - Block style comment"
+			]
+		],
+		"width": 556.0
+	},
+	"console":
+	{
+		"height": 442.0,
+		"history":
+		[
+			"exit",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sixFingers/Repositories/shmup",
+		"/Users/sixFingers/Repositories/shmup/assets",
+		"/Users/sixFingers/Repositories/shmup/assets/models",
+		"/Users/sixFingers/Repositories/shmup/src",
+		"/Users/sixFingers/Repositories/shmup/src/core",
+		"/Users/sixFingers/Repositories/shmup/src/entities",
+		"/Users/sixFingers/Repositories/shmup/src/states"
+	],
+	"file_history":
+	[
+		"/Users/sixFingers/Repositories/shmup/src/states/blocks.lua",
+		"/Users/sixFingers/Repositories/shmup/src/entities/human.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shaders/default.glsl",
+		"/Users/sixFingers/Repositories/shmup/main.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shaders/terrain.glsl",
+		"/Users/sixFingers/Repositories/shmup/src/states/roads.lua",
+		"/Users/sixFingers/Repositories/shmup/src/entities/road.lua",
+		"/Users/sixFingers/Repositories/shmup/src/states/basic.lua",
+		"/Users/sixFingers/Repositories/shmup/src/core/scene.lua",
+		"/Users/sixFingers/Repositories/shmup/conf.lua",
+		"/Users/sixFingers/Repositories/shmup/src/core/model.lua",
+		"/Users/sixFingers/Repositories/shmup/src/entities/building.lua",
+		"/Users/sixFingers/Repositories/shmup/src/entities/bullet.lua",
+		"/Users/sixFingers/Repositories/shmup/src/entities/vehicle.lua",
+		"/Users/sixFingers/Repositories/shmup/src/core/renderer.lua",
+		"/Users/sixFingers/Repositories/shmup/src/core/camera.lua",
+		"/Users/sixFingers/Repositories/shmup/lib/hump/gamestate.lua",
+		"/Users/sixFingers/Repositories/shmup/shmup/src/states/basic.lua",
+		"/Users/sixFingers/Repositories/shmup/src/states/iso.lua",
+		"/Users/sixFingers/Repositories/shmup/src/states/ortho.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shaders/iso.glsl",
+		"/Users/sixFingers/Desktop/wording",
+		"/Users/sixFingers/Repositories/ortho/src/model.lua",
+		"/Users/sixFingers/Repositories/shmup/src/core/sprite.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shaders/post.glsl",
+		"/Users/sixFingers/Repositories/shmup/src/loader.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shaders/no_lighting.glsl",
+		"/Users/sixFingers/Desktop/makelove.lua",
+		"/Users/sixFingers/Library/Application Support/Sublime Text 3/Installed Packages/Lua Love.sublime-package",
+		"/Users/sixFingers/Repositories/shmup/src/utils/grid.lua",
+		"/Users/sixFingers/Repositories/shmup/assets/shader/default.glsl",
+		"/Users/sixFingers/Repositories/shmup/src/states/empty.lua",
+		"/Users/sixFingers/Repositories/topdown/src/loader.lua",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/banner/builder-template-slide.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/section-definitions.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/api.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/gallery/definition.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/gallery/builder-template-item.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/banner/definition.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/templates/overlay-configuration.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/columns/definition.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/base.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/gallery/frontend-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/gallery/builder-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/banner/frontend-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/banner/builder-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/columns/frontend-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/columns/builder-template.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/save.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/core/views/section.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/banner.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/banner-slide.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/templates/section-header.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/models/banner-slide.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/builder-templates/banner-slide.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/core/views/overlay.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core/templates/remove-image.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/woocommerce/setup.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/panels/setup.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/postslist/setup.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/api.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/postslist/widget.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/postslist/admin.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/panels/builder-model.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/panels/builder-view.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/postslist/builder-view.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/postslist/builder-model.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/postslist/sections/front-end-templates/post-list.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/postslist/sections/builder-templates/post-list.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/core/app.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/item.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/panels/sections/builder-templates/panels-item.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/gallery.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/panels/builder-item-view.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/panels/settings.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/duplicator/section.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/duplicator/utils.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/duplicator/section.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/gallery-item.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/models/gallery-item.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/panels/builder-item-model.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder/sections/views/text-item.js",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/panels/sections/builder-templates/panels.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/sections/builder-templates/banner.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/panels/sections/builder-templates/__section.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/setup.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/component/edd/setup.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/dist/make/inc/builder/sections/section-definitions.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/dist/make/functions.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/make-plus.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/dist/make/inc/util/modulesinterface.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/util/modulesinterface.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc/util/loadinterface.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/dist/make/inc/util/loadinterface.php",
+		"/Users/sixFingers/ThemeFoundry/vagrant-local/www/basis/style.css",
+		"/Users/sixFingers/Repositories/topdown/src/core/transform.lua",
+		"/Users/sixFingers/Repositories/topdown/src/core/renderer.lua",
+		"/Users/sixFingers/Repositories/topdown/src/states/basic.lua",
+		"/Users/sixFingers/Repositories/topdown/lib/cpml/modules/mat4.lua",
+		"/Users/sixFingers/Repositories/topdown/src/core/model.lua",
+		"/Users/sixFingers/Repositories/topdown/src/controllers/keyboard.lua",
+		"/Users/sixFingers/Repositories/topdown/main.lua",
+		"/Users/sixFingers/Repositories/topdown/src/core/scene.lua",
+		"/Users/sixFingers/Repositories/topdown/src/states/control.lua",
+		"/Users/sixFingers/Repositories/topdown/conf.lua",
+		"/Users/sixFingers/Repositories/topdown/src/controllers/orbit.lua",
+		"/Users/sixFingers/Repositories/topdown/src/core/assets.lua",
+		"/Users/sixFingers/Repositories/topdown/assets/shaders/default.glsl",
+		"/Users/sixFingers/Repositories/topdown/src/core/helpers.lua",
+		"/Users/sixFingers/Repositories/topdown/src/assets.lua",
+		"/Users/sixFingers/Repositories/topdown/.gitmodules",
+		"/Users/sixFingers/Repositories/topdown/src/states/empty.lua",
+		"/Users/sixFingers/Repositories/topdown/lib/love3d/init.lua",
+		"/Users/sixFingers/Desktop/compound.slab.vox",
+		"/Users/sixFingers/Desktop/compound.qb",
+		"/Users/sixFingers/Repositories/ortho/src/states/dev.lua",
+		"/Users/sixFingers/Repositories/ortho/assets/shader_alt.glsl",
+		"/Users/sixFingers/Desktop/compound.png",
+		"/Users/sixFingers/Desktop/compound.mtl",
+		"/Users/sixFingers/Desktop/compound.obj",
+		"/Users/sixFingers/Repositories/ortho/conf.lua",
+		"/Users/sixFingers/Repositories/ortho/main.lua",
+		"/Users/sixFingers/Repositories/ortho/src/states/heightmap.lua",
+		"/Users/sixFingers/Repositories/ortho/assets/terrain.glsl",
+		"/Users/sixFingers/Repositories/vox2png/stb_image_write.h",
+		"/Users/sixFingers/Repositories/ActionSquad/states/terrainGen.lua",
+		"/Users/sixFingers/Repositories/ortho/assets/shader.glsl",
+		"/Users/sixFingers/Repositories/ortho/assets/scanlines.glsl"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+			"/Users/sixFingers/Repositories/shmup/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder/core",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/js/panels",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/jetpack",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/C/space/space",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make-plus/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js/builder",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/js",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src",
+			"/Users/sixFingers/ThemeFoundry/vagrant-local/www/make/src/inc",
+			"/Users/sixFingers/Repositories/streamex/lib/streamex",
+			"/Users/sixFingers/Repositories/rogue/libs/hc",
+			"/Users/sixFingers/Repositories/rogue/src",
+			"/Users/sixFingers/Repositories/ActionSquad",
+			"/Users/sixFingers/Repositories/platformer/src",
+			"/Users/sixFingers/Repositories/platformer/Src",
+			"/Users/sixFingers/Repositories/shooter/libs/hc",
+			"/Users/sixFingers/Repositories/Comic/excessive/love3d",
+			"/Users/sixFingers/Repositories/Comic/excessive/cpml/modules",
+			"/Users/sixFingers/Repositories/ActionSquad/states",
+			"/Users/sixFingers/Repositories/ActionSquad",
+			"/Users/sixFingers/Go/src/lost",
+			"/Users/sixFingers/Go/src/lost/core",
+			"/Users/sixFingers/Go/src/lost",
+			"/Users/sixFingers/Repositories/meteonetwork",
+			"/Users/sixFingers/Repositories/themoodpost",
+			"/Users/sixFingers/Go/src/goviewer"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"body",
+			"Body",
+			"body",
+			"self.dir",
+			"body",
+			"ba(",
+			"bg(",
+			"body",
+			"bodyTexture",
+			"a(",
+			"g(",
+			"elf.state",
+			"self.states",
+			"self.texture",
+			"points",
+			"layer_count",
+			"height / 2",
+			"width / 2",
+			"width",
+			"half_tex_height",
+			"half_tex_width",
+			"tex_width",
+			"10",
+			"d / depth",
+			"vertices",
+			"1",
+			"modelCount",
+			"mul",
+			"+",
+			"p",
+			"Vec",
+			"[2]",
+			"[1]",
+			".y",
+			"point",
+			"n * ",
+			", d, 1",
+			"d,\n            ",
+			"viewport",
+			"models",
+			"list",
+			"self.player.",
+			"player",
+			"x",
+			"2",
+			"lookAt",
+			"320",
+			"x",
+			"type",
+			"code",
+			"isDown(",
+			"x",
+			"defaultformat",
+			"Model.blueprints[name]",
+			"w/2",
+			"l * px",
+			"l}",
+			"l",
+			"rotate",
+			"scale",
+			"5",
+			"floor",
+			"gs",
+			"thrusting",
+			"model",
+			"thrust",
+			"500",
+			"Vehicle",
+			"Model",
+			"VertexPosition",
+			"z,",
+			"l * u_pixel",
+			"CANVAS_RES",
+			"WIDTH",
+			"SCREEN",
+			"CANVAS",
+			"SCREEN",
+			"2",
+			" * u_pixel + correction",
+			".5",
+			"1",
+			".x",
+			"linear",
+			"10",
+			"4",
+			".5",
+			"2",
+			"10",
+			"200",
+			"pos.",
+			"c * size",
+			"r * size",
+			"x",
+			".x",
+			"add_js_dependencies",
+			"ttfmake_get_section_name",
+			"add_section",
+			"custom",
+			"make_add_section",
+			"add_se",
+			"'config'",
+			"get_section_json",
+			"-item",
+			"section",
+			"get_section_json",
+			"section",
+			"section_data",
+			"section",
+			"ttfmake_get_section_json_data",
+			"ttfmake_get_section_definitions",
+			"make_get_section_data",
+			"ttfmake_get_section_data",
+			"make_get_section_data",
+			".php",
+			"slide",
+			"banner",
+			"get_gallery_item_defaults",
+			"MAKE_Builder_Sections_Banner_Definition",
+			"print_templates",
+			"addSlide",
+			"alignm",
+			"a.gk",
+			"a.g",
+			"transition",
+			"ttfmake-sections/js/",
+			".js",
+			"ttfmake-sections/js/",
+			"add_js_dependencies"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"panel-items",
+			"char *",
+			"[2]",
+			"[1]",
+			"self.world",
+			"self.cx",
+			"self.viewArea",
+			"input",
+			"\"",
+			"\", \"",
+			", ",
+			"self.heightInTiles",
+			"self.widthInTiles",
+			"object",
+			"Object",
+			"object",
+			"Object",
+			"place",
+			"Place",
+			"place",
+			"Place",
+			"HC.polygon",
+			":rotate",
+			"velocitySystem",
+			"mazeStateButton",
+			"River",
+			"\"",
+			"voronoiGraph",
+			"BiomeType",
+			"iceLevel",
+			"\"",
+			"cullGenerator",
+			"\"",
+			"units",
+			".fixture:setUserData",
+			":setUserData",
+			"a ",
+			"a.",
+			"a :=",
+			"AnimatedSprite",
+			"t ",
+			"t :=",
+			"t.",
+			"TextBox",
+			"package core",
+			"package drawable",
+			"RNG",
+			"",
+			"self.ajax",
+			"'",
+			"$this->",
+			"$isBPopular",
+			"$isBJunk",
+			"isJunk",
+			"$indices",
+			"', '",
+			"'",
+			"public",
+			"email",
+			"'",
+			"",
+			"BABYLON",
+			"    ",
+			"gl.",
+			"github.com/go-gl/glfw/v3.1/glfw"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/entities/road.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/core/model.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2531,
+								2531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/entities/human.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2543,
+								2805
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/states/basic.lua",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 295.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 159.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Love2D",
+	"project": "shmup.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"play",
+				"src/states/play.lua"
+			],
+			[
+				"gra",
+				"src/graph.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
