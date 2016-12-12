@@ -1,6 +1,6 @@
 local Road = Class{}
 
-function Road:init(points)
+function Road:init(name, points)
     self.pathRadius = 30
     self.path = {}
 

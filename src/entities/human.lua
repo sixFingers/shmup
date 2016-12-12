@@ -1,6 +1,6 @@
 local Human = Class{}
 
-function Human:init(x, y)
+function Human:init(type, x, y)
     self.x = x ~= nil and x or 0
     self.y = y ~= nil and y or 0
     self.bodySize = 3
@@ -17,9 +17,15 @@ function Human:init(x, y)
     self.speed = .5
     self.running = false
 
+    -- collision body
     self.body = HC.circle(0, 0, self.bodySize)
     self.body.entity = self
     self.body:moveTo(self.x, self.y)
+
+    -- visual body
+    self.cull = HC.rectangle(self.x - 4, self.y - 8, 8, 16)
+    self.cull.entity = self
+    self.cull.isCull = true
 
     self.bodyTexture = love.graphics.newImage("assets/models/body.png")
     local bg = Anim8.newGrid(8, 16, self.bodyTexture:getWidth(), self.bodyTexture:getHeight())
@@ -100,19 +106,18 @@ function Human:update(dt)
     self.bodyState:gotoFrame(self.legsState.position)
     self.bodyState:update(dt)
 
-
     -- collisions
     self.body:moveTo(self.x, self.y)
     local collisions = HC.collisions(self.body)
 
     for other, separatingVector in pairs(collisions) do
-        local entity = other.entity
-
-        if entity and entity.isWall then
-            self.x = self.x + separatingVector.x
-            self.y = self.y + separatingVector.y
-            self.dx = 0
-            self.dy = 0
+        if other.isSolid then
+            if other.entity then
+                self.x = self.x + separatingVector.x
+                self.y = self.y + separatingVector.y
+                self.dx = 0
+                self.dy = 0
+            end
         end
     end
 

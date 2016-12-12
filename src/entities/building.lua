@@ -1,11 +1,5 @@
 local Building = Class{}
 
-Building.definitions = {
-    tent = {24, 32, 16},
-    jeep = {32, 32, 32},
-    station = {45, 45, 45}
-}
-
 function Building:init(name, x, y, a)
     self.x = x ~= nil and x or 0
     self.y = y ~= nil and y or 0
@@ -15,19 +9,29 @@ function Building:init(name, x, y, a)
     self.model = Core.Model(name)
     self.modelRotation = self.a
 
-    local definition = Building.definitions[name]
-    if not definition then return end
-
-    local w, h = definition[1], definition[2]
-    self.body = HC.rectangle(self.x - w / 2, self.y - h / 2, w, h)
+    -- collision body
+    local collisionBoxWidth, collisionBoxHeight = Core.Assets.collisionBox(name)
+    self.body = HC.rectangle(self.x - collisionBoxWidth / 2, self.y - collisionBoxHeight / 2, collisionBoxWidth, collisionBoxHeight)
     self.body:setRotation(self.a)
     self.body.entity = self
+    self.body.isSolid = true
+
+    -- visual body
+    local w, h = self.model.w * 1.5, self.model.d * 1.5
+    self.cull = HC.rectangle(self.x - w / 2, self.y - h / 2, w, h)
+    self.cull.entity = self
+    self.cull.isCull = true
 end
 
 function Building:update(dt)
 end
 
-function Building:draw()
+function Building:draw(debug)
+    if debug then
+        self.body:draw()
+        self.cull:draw()
+    end
+
     love.graphics.draw(self.model.mesh, self.x, self.y, self.modelRotation)
 end
 

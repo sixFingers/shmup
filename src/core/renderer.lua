@@ -11,7 +11,7 @@ function Renderer:init()
     self.ox = (SCREEN_WIDTH - CANVAS_WIDTH * self.resolution) / 2
     self.oy = (SCREEN_HEIGHT - CANVAS_HEIGHT * self.resolution) / 2
     self.viewPort = HC.rectangle(0, 0, CANVAS_WIDTH - 1, CANVAS_HEIGHT - 1)
-    self.debug = false
+    self.debug = true
 
     print("Pixel resolution: ", self.resolution)
 end
@@ -24,11 +24,13 @@ function Renderer:getEntitiesInViewport(camera)
     local c = 0
 
     for other in pairs(collisions) do
-        local entity = other.entity
-        c = c + 1
+        if other.isCull then
+            local entity = other.entity
+            c = c + 1
 
-        if entity then
-            table.insert(entities, entity)
+            if entity then
+                table.insert(entities, entity)
+            end
         end
     end
 
@@ -55,11 +57,7 @@ function Renderer:draw(entities, camera, x, y)
 
     -- draw
     for e, entity in ipairs(entities) do
-        entity:draw()
-
-        if self.debug then
-            entity.body:draw()
-        end
+        entity:draw(self.debug)
     end
 
     -- print("Draws: ", #list)

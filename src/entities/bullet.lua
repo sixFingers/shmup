@@ -11,9 +11,15 @@ function Bullet:init(x, y, a)
     self.life = .2
     self.isRemoved = false
 
+    -- collision body
     self.body = HC.rectangle(x, y, 2, 1)
     self.body.entity = self
     self.body:setRotation(self.a)
+
+    -- visual body
+    self.cull = HC.rectangle(self.x - 1, self.y, 2, 1)
+    self.cull.entity = self
+    self.cull.isCull = true
 end
 
 function Bullet:update(dt, viewPort)
@@ -30,11 +36,14 @@ function Bullet:update(dt, viewPort)
         if self.life <= 0 then self.isRemoved = true end
     else
         local collisions = HC.collisions(self.body)
-        for collision, separating_vector in pairs(collisions) do
-            if collision.entity and collision.entity.isWall then
-                local vx, vy = Vec.normalize(separating_vector.x, separating_vector.y)
-                self.dx, self.dy = vx, vy
-                self.hasCollided = true
+
+        for other, separating_vector in pairs(collisions) do
+            if other.isSolid then
+                if other.entity then
+                    local vx, vy = Vec.normalize(separating_vector.x, separating_vector.y)
+                    self.dx, self.dy = vx, vy
+                    self.hasCollided = true
+                end
             end
         end
     end
@@ -48,6 +57,7 @@ end
 
 function Bullet:remove()
     HC.hash():remove(self.body)
+    HC.hash():remove(self.cull)
 end
 
 return Bullet

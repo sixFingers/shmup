@@ -1,28 +1,14 @@
 local Model = Class{}
 
-Model.blueprints = {
-    tent = {24, 32, 16},
-    jeep = {32, 32, 16},
-    compound = {32, 32, 16},
-    station = {45, 45, 45}
-}
-
 Model.cache = {}
 Model.textures = {}
 
-function Model.buildMesh(name, width, height)
-    if not Model.textures[name] then
-        local texture = love.graphics.newImage("assets/models/" .. name .. ".png", {mipmaps = false})
-        texture:setFilter("nearest", "nearest")
-        Model.textures[name] = texture
-    end
-
-    local texture = Model.textures[name]
-    local box = Model.blueprints[name]
-    local half_tex_width, half_tex_height = box[1] / 2, box[2] / 2
-    local depth = box[3]
+function Model.buildMesh(name, width, depth)
+    local texture = Core.Assets.texture(name)
+    local tex_width, tex_height, height = Core.Assets.bbox(name)
+    local half_tex_width, half_tex_height = tex_width / 2, tex_height / 2
     local half_width = width ~= nil and width / 2 or half_tex_width
-    local half_height = height ~= nil and height / 2 or half_tex_height
+    local half_depth = depth ~= nil and depth / 2 or half_tex_height
 
     local format = {
         {"VertexPosition", "float", 3},
@@ -32,55 +18,55 @@ function Model.buildMesh(name, width, height)
     }
     local vertices = {}
     local perspective = 2
-    local u_offset = 1 / depth
+    local u_offset = 1 / height
     local u_pixel = 1 / CANVAS_HEIGHT * perspective
 
-    for l = 0, depth - 1 do
+    for l = 0, height - 1 do
         local u = u_offset * l
-        local ny = l / (depth - 1)
+        local ny = l / (height - 1)
         local z = l * u_pixel
-        local d = (l / (depth - 1) + .2) * 255
-        -- enable for depth shading
+        local d = (l / (height - 1) + .2) * 255
+        -- enable for height shading
         -- d = math.min(d, 255)
         d = 255
 
         table.insert(vertices, {
-            -half_width, -half_height, z,
+            -half_width, -half_depth, z,
             u + u_offset, 0,
             -.5, ny, -.5,
             d, d, d, 255,
             })
 
         table.insert(vertices, {
-            half_width, -half_height, z,
+            half_width, -half_depth, z,
             u, 0,
             .5, ny, -.5,
             d, d, d, 255,
         })
 
         table.insert(vertices, {
-            half_width, half_height, z,
+            half_width, half_depth, z,
             u, 1,
             .5, ny, .5,
             d, d, d, 255,
         })
 
         table.insert(vertices, {
-            -half_width, -half_height, z,
+            -half_width, -half_depth, z,
             u + u_offset, 0,
             -.5, ny, -.5,
             d, d, d, 255,
         })
 
         table.insert(vertices, {
-            half_width, half_height, z,
+            half_width, half_depth, z,
             u, 1,
             .5, ny, .5,
             d, d, d, 255,
         })
 
         table.insert(vertices, {
-            -half_width, half_height, z,
+            -half_width, half_depth, z,
             u + u_offset, 1,
             -.5, ny, .5,
             d, d, d, 255,
@@ -94,13 +80,8 @@ function Model.buildMesh(name, width, height)
 end
 
 function Model:init(name)
-    if not Model.cache[name] then
-        local mesh = Model.buildMesh(name)
-        Model.cache[name] = mesh
-    end
-
-    self.mesh = Model.cache[name]
-    self.w, self.d, self.h = unpack(Model.blueprints[name])
+    self.mesh = Core.Assets.mesh(name)
+    self.w, self.d, self.h = Core.Assets.bbox(name)
     self.rotation = 0
 end
 
