@@ -1,0 +1,9 @@
+[submodule "lib/hump"]
+	path = lib/hump
+	url = https://github.com/vrld/hump.git
+[submodule "lib/hc"]
+	path = lib/hc
+	url = https://github.com/vrld/HC.git
+[submodule "lib/anim8"]
+	path = lib/anim8
+	url = https://github.com/kikito/anim8.git
