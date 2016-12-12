@@ -6,26 +6,11 @@ function state:init()
     self.renderList = {}
     self.camera = Core.Camera()
 
-    local tent = Entities.Building("tent", 0, 0, math.pi + .5)
-    local tent_2 = Entities.Building("jeep", -30, 50, math.pi / 4 * 3)
-    local tent_3 = Entities.Building("tent", 50, 40, math.pi / 4 * 3)
-    local roadPoints = {
-        {0, 0},
-        {100, 30},
-        {120, 130},
-        {70, 150},
-        {30, 90},
-    }
-    local road = Entities.Road(roadPoints)
-    local player = Entities.Human(-30, -30)
+    self.scene:loadLevel(Levels.Dev)
+    self.player = Core.Assets.factory("soldier", -30, -30)
+    self.scene:addModels(self.player)
 
-    self.scene:addModels(tent, tent_2, tent_3, player)
-    self.scene:addStatic(road)
-    self.player = player
     self.mouseMoved = false
-
-    -- vehicle = Entities.Vehicle()
-    -- vehicle:setRotation(-math.pi / 4 *3)
 
     local joysticks = love.joystick.getJoysticks()
     joystick = joysticks[1]
@@ -110,7 +95,7 @@ function state:update(dt)
     -- print("scene count: ", self.scene.modelCount)
 
     -- camera
-    self.camera:lookAt(self.player.px, self.player.py)
+    self.camera:lockPosition(self.player.px, self.player.py)
 
     -- render list
     self.renderList = self.renderer:getEntitiesInViewport(self.camera)

@@ -6,7 +6,19 @@ function Scene:init()
     self.count = 0
 end
 
-function Scene:addStatic(...)
+function Scene:loadLevel(level)
+    for _, args in ipairs(level.statics) do
+        local static = Core.Assets.factory(unpack(args))
+        self:addStatics(static)
+    end
+
+    for _, args in ipairs(level.models) do
+        local model = Core.Assets.factory(unpack(args))
+        self:addModels(model)
+    end
+end
+
+function Scene:addStatics(...)
     local nargs = select('#', ...)
 
     for m = 1, nargs do
